@@ -94,7 +94,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>Main</mainClass>
+                            <mainClass>DemoApplication</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
