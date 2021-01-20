@@ -16,7 +16,6 @@
 
     <properties>
         <java.version>11</java.version>
-        <propertiesEncoding>UTF-8</propertiesEncoding>
     </properties>
 
     <dependencies>
@@ -85,12 +84,6 @@
                         </exclude>
                     </excludes>
                 </configuration>
-            </plugin>
-            <plugin>
-                <!-- Build an executable JAR -->
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-jar-plugin</artifactId>
-                <version>3.1.2</version>
             </plugin>
         </plugins>
     </build>
