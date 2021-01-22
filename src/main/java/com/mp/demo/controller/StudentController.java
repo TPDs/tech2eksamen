@@ -30,7 +30,7 @@ public class StudentController {
     @GetMapping("update")
     public String update(@RequestParam Long id,Model model, Student student) {
        model.addAttribute("student", studentService.findbyid(id));
-        return "/update";
+        return "update";
     }
 
     @PostMapping("update")
